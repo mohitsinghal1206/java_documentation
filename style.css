@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  background: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  gap: 10px;
+}
+
+header {
+  border: 3px solid green;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+nav {
+  padding: 20px 10px;
+}
+nav h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  border-bottom: 1px solid green;
+  padding: 10px;
+  /* color: black; */
+  color: white;
+}
+nav ul li:hover {
+  background: rgb(170, 221, 93);
+  transition: 0.3s ease-in-out;
+}
+
+/* Main Section */
+
+main {
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 50px;
+  scroll-margin: 50px;
+}
+
+section article {
+  max-width: 1200px;
+  font-size: 14px;
+}
+section h2 {
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+section article {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section article ul {
+  margin-left: 20px;
+}
+section article ul li {
+  margin-bottom: 10px;
+}
+
+section article p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  line-height: 2;
+  background-color: #9f9898;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  color: black;
+}
